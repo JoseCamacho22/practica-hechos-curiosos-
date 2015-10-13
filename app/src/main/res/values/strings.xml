@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hechos Curiosos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pt_sabias_que">Sabias que..</string>
+</resources>
