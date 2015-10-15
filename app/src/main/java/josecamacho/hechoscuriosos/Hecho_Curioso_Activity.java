@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class Hecho_Curioso_Activity extends AppCompatActivity {
 
@@ -11,6 +14,20 @@ public class Hecho_Curioso_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hecho__curioso_);
+
+        final TextView factlabel = (TextView) findViewById (R.id.HechoCuriosoTextView);
+        Button showFactButton = (Button) findViewById(R.id.button);
+
+        showFactButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    String fact = "¿Los 10 trabajos más demandados en 2010 no existian en 2004?";
+                    factlabel.setText(fact);
+
+                }
+
+        });
+
     }
 
     @Override
