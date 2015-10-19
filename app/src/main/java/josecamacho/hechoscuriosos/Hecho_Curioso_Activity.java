@@ -1,12 +1,13 @@
 package josecamacho.hechoscuriosos;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import java.util.Random;
 
 public class Hecho_Curioso_Activity extends AppCompatActivity {
 
@@ -21,8 +22,12 @@ public class Hecho_Curioso_Activity extends AppCompatActivity {
         showFactButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    String fact = "¿Los 10 trabajos más demandados en 2010 no existian en 2004?";
-                    factlabel.setText(fact);
+                    String fact = "";
+                    // Randomly select a fact
+
+                    Array a=new Array();
+                    String resultado=a.getContenido();
+                    factlabel.setText(resultado);
 
                 }
 
