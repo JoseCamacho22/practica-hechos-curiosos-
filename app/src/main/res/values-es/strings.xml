@@ -24,7 +24,7 @@
         <item>¡Buen trabajo pulsando el botón tio!</item>
     </string-array>
 
-
+//array colores
 
     <string-array name="string_array_colores">
         <item>#39add1</item><!-- light blue -->
