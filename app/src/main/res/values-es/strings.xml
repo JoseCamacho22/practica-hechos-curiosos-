@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hechos Curiosos</string>
+
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pt_sabias_que">SABIAS QUE</string>
+    <string name="button_text">VER OTRO HECHO CURIOSO</string>
+    <string name="Texto">\"Las hormigas se estiran cuando se despiertan por la mañana”</string>
+
+
+
+    <string-array
+        name="string_array_hechosCuriosos">
+        <item>Las hormigas se estiran cuando se despiertan por la mañana.</item>
+        <item>Las avestruces pueden correr más rápido que los caballos.</item>
+        <item>Las medallas de oro de los juegos olímpicos están hechas de plata.</item>
+        <item>Naciste con 300 huesos, pero en la edad adulta tendrás solo 206.</item>
+        <item>Toma unos 8 minutos en llegar la luz del sol a la tierra.</item>
+        <item>Algunas plantas de bambu pueden crecer hasta un metro al dia </item>
+        <item>El estado de Florida es más grande que Inglaterra.</item>
+        <item>Algunos pingüinos pueden saltar de 2 a 3 metros por encima del agua.</item>
+        <item>De media se tarda 66 días en tomar un nuevo hábito.</item>
+        <item>Los mamuts seguian caminando sobre la tierra en la época en que se construyeron las grandes pirámides.</item>
+        <item>¡Buen trabajo pulsando el botón tio!</item>
+    </string-array>
+
+
+</resources>

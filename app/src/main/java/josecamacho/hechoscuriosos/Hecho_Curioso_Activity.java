@@ -1,37 +1,48 @@
 package josecamacho.hechoscuriosos;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 import java.util.Random;
 
+
 public class Hecho_Curioso_Activity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hecho__curioso_);
 
-        final TextView factlabel = (TextView) findViewById (R.id.HechoCuriosoTextView);
-        Button showFactButton = (Button) findViewById(R.id.button);
 
-        showFactButton.setOnClickListener(new View.OnClickListener() {
+        final TextView factLabel = (TextView) findViewById(R.id.HechoCuriosoTextView);
+        Button showFactButton = (Button) findViewById(R.id.button);
+        final RelativeLayout LayoutPrincipal = (RelativeLayout) findViewById(R.id.LayoutPrincipal);
+
+        View.OnClickListener listener = new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                    String fact = "";
-                    // Randomly select a fact
 
-                    Array a=new Array();
-                    String resultado=a.getContenido();
-                    factlabel.setText(resultado);
+                Resources res = getResources();
+                String[] answers = res.getStringArray(R.array.string_array_hechosCuriosos);
+                // Randomly select a fact
 
-                }
+                Random randomGenerator = new Random(); //Construct new number Generator
+                int randomNumber = randomGenerator.nextInt(answers.length); // limit to numbers of answers
+                factLabel.setText(answers[randomNumber]);
+            }
+        };
 
-        });
+        showFactButton.setOnClickListener(listener);
 
     }
 

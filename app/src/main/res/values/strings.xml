@@ -1,7 +1,24 @@
 <resources>
-    <string name="app_name">Hechos Curiosos</string>
+    <string name="app_name">Curious Fact</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="pt_sabias_que">Sabias que..</string>
+    <string name="pt_sabias_que">Did you know</string>
+    <string name="button_text">View another curious fact</string>
+    <string name="Texto">\"Ants stretch when they wake up in the morning”</string>
+
+    <string-array
+        name="string_array_hechosCuriosos">
+        <item>Ants stretch when they wake up in the morning.</item>
+        <item>Ostriches can run faster than horses.</item>
+        <item>You were born with 300 bones, but by adulthood will only206.</item>
+        <item>It takes about 8 minutes to reach the sunlight to earth.</item>
+        <item>Some bamboo plants can grow up to one meterday.</item>
+        <item>The state of Florida is bigger than England.</item>
+        <item>Some Penguins can jump 2-3 feet above the water.</item>
+        <item>On average it takes 66 days to make a new habit.</item>
+        <item>Mammoths were following walking on earth at the time that the great pyramids were built.</item>
+        <item>¡Good job dude pressing the button!</item>
+    </string-array>
+
 </resources>

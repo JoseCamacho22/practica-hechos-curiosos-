@@ -2,10 +2,14 @@ package josecamacho.hechoscuriosos;
 
 import java.util.Random;
 
+
+
 /**
  * Created by Jose on 19/10/15.
  */
 public class Array {
+
+
 
     /** probando git*/
     String[] lista = {
@@ -23,6 +27,7 @@ public class Array {
 
     };
 
+
     String getContenido() {
         String listado = "";
         Random generadorNumber = new Random();
@@ -30,6 +35,9 @@ public class Array {
         listado = lista[number];
         return listado;
 
+
     }
+
+
 
 }
