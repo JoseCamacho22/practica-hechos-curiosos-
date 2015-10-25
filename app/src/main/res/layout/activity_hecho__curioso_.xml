@@ -33,7 +33,8 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#80ffffff" />
-
+        android:background="#80ffffff"
+        android:singleLine="true"
+        android:onClick="factButtonAction"/>
 
 </RelativeLayout>

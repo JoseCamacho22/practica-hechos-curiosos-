@@ -21,4 +21,24 @@
         <item>¡Good job dude pressing the button!</item>
     </string-array>
 
+
+    <string-array name="string_array_colores">
+        <item>#39add1</item><!-- light blue -->
+        <item>#3079ab</item> <!-- dark blue -->
+        <item>#c25975</item> <!-- mauve -->
+        <item>#e15258</item> <!-- red -->
+        <item>#f9845b</item> <!-- orange -->
+        <item>#838cc7</item> <!-- lavender -->
+        <item>#7d669e</item> <!-- purple -->
+        <item>#53bbb4</item> <!-- aqua -->
+        <item>#51b46d</item> <!-- green -->
+        <item>#e0ab18</item> <!-- mustard -->
+        <item>#637a91</item> <!-- dark gray -->
+        <item>#f092b0</item> <!-- pink -->
+        <item>#b7c0c7</item> <!-- light gray -->
+    </string-array>
+
+
+
+
 </resources>
