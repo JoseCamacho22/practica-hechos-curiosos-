@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="“Las hormigas se estiran cuando se despiertan por la mañana”"
+        android:text="@string/Texto"
         android:id="@+id/HechoCuriosoTextView"
         android:textSize="24sp"
         android:background="@android:color/black"
@@ -28,7 +28,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="“Ver otro hecho curioso”"
+        android:text="@string/button_text"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"

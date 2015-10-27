@@ -11,17 +11,17 @@
 
     <string-array
         name="string_array_hechosCuriosos">
-        <item>Las hormigas se estiran cuando se despiertan por la mañana.</item>
-        <item>Las avestruces pueden correr más rápido que los caballos.</item>
-        <item>Las medallas de oro de los juegos olímpicos están hechas de plata.</item>
-        <item>Naciste con 300 huesos, pero en la edad adulta tendrás solo 206.</item>
-        <item>Toma unos 8 minutos en llegar la luz del sol a la tierra.</item>
-        <item>Algunas plantas de bambu pueden crecer hasta un metro al dia </item>
-        <item>El estado de Florida es más grande que Inglaterra.</item>
-        <item>Algunos pingüinos pueden saltar de 2 a 3 metros por encima del agua.</item>
-        <item>De media se tarda 66 días en tomar un nuevo hábito.</item>
-        <item>Los mamuts seguian caminando sobre la tierra en la época en que se construyeron las grandes pirámides.</item>
-        <item>¡Buen trabajo pulsando el botón tio!</item>
+        <item><b>Las hormigas se estiran cuando se despiertan por la mañana.</b></item>
+        <item><b>Las avestruces pueden correr más rápido que los caballos.</b></item>
+        <item><b>Las medallas de oro de los juegos olímpicos están hechas de plata.</b></item>
+        <item><b>Naciste con 300 huesos, pero en la edad adulta tendrás solo 206.</b></item>
+        <item><b>Toma unos 8 minutos en llegar la luz del sol a la tierra.</b></item>
+        <item><b>Algunas plantas de bambu pueden crecer hasta un metro al dia </b></item>
+        <item><b>El estado de Florida es más grande que Inglaterra.</b></item>
+        <item><b>Algunos pingüinos pueden saltar de 2 a 3 metros por encima del agua.</b></item>
+        <item><b>De media se tarda 66 días en tomar un nuevo hábito.</b></item>
+        <item><b>Los mamuts seguian caminando sobre la tierra en la época en que se construyeron las grandes pirámides.</b></item>
+        <item><b>¡Buen trabajo pulsando el botón tio!</b></item>
     </string-array>
 
 //array colores

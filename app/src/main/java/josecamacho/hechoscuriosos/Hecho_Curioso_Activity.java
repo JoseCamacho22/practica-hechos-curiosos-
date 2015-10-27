@@ -16,28 +16,27 @@ public class Hecho_Curioso_Activity extends AppCompatActivity {
     Button otroHechoButton;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hecho__curioso_);
 
-            layoutPrincipal = (RelativeLayout) findViewById(R.id.LayoutPrincipal);
-            hechoCuriosoTextView = (TextView) findViewById(R.id.HechoCuriosoTextView);
-            otroHechoButton = (Button) findViewById(R.id.button);
-        }
+        layoutPrincipal = (RelativeLayout) findViewById(R.id.LayoutPrincipal);
+        hechoCuriosoTextView = (TextView) findViewById(R.id.HechoCuriosoTextView);
+        otroHechoButton = (Button) findViewById(R.id.button);
+    }
 
 
-                //metodo que se ejecuta cuando se pulsa el boton
+    //metodo que se ejecuta cuando se pulsa el boton
 
-                public void factButtonAction(View view) {
-                    hechoCuriosoTextView.setText(factBook.getRandomFact(this));
-                    int color = colorWhell.getRandomColor(this);
-                    layoutPrincipal.setBackgroundColor(color);
-                    otroHechoButton.setTextColor(color);
+    public void factButtonAction(View view) {
+        hechoCuriosoTextView.setText(factBook.getRandomFact(this));
+        int color = colorWhell.getRandomColor(this);
+        layoutPrincipal.setBackgroundColor(color);
+        otroHechoButton.setTextColor(color);
 
-                }
-            }
+    }
+}
 
 
 
