@@ -32,10 +32,12 @@
         android:layout_height="wrap_content"
         android:text="@string/button_text"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#80ffffff"
+        android:background="#807e7d7d"
         android:singleLine="true"
-        android:onClick="factButtonAction"/>
+        android:onClick="factButtonAction"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="72dp" />
 
 </RelativeLayout>

@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class Hecho_Curioso_Activity extends AppCompatActivity {
@@ -24,6 +25,12 @@ public class Hecho_Curioso_Activity extends AppCompatActivity {
         layoutPrincipal = (RelativeLayout) findViewById(R.id.LayoutPrincipal);
         hechoCuriosoTextView = (TextView) findViewById(R.id.HechoCuriosoTextView);
         otroHechoButton = (Button) findViewById(R.id.button);
+
+
+        Toast toast = Toast.makeText(this, "Mostrar hecho Curisoso", Toast.LENGTH_LONG);
+        toast.show();
+
+
     }
 
 
